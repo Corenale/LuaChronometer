@@ -20,8 +20,8 @@ sw:resume()
 -- Current time 
 chronometer.gettime(true) -- current time in seconds (microseconds precision)
 
--- Process elapsed time
-chronometer.getclock(true) -- elapsed process time in seconds (microseconds precision)
+-- Process current time
+chronometer.getclock(true) -- current process time in seconds (microseconds precision)
 
 -- Raw timestamps
 chronometer.getrawsysclock() -- raw system performance counter value
