@@ -7,9 +7,7 @@ Current time in seconds or microseconds precision
 Elapsed process time in seconds or microseconds
 Raw timestamps for time, system performance counter, process start
 Usage
-lua
-
-Copy code
+```lua
 
 local chronometer = require("chronometer")
 
@@ -28,6 +26,7 @@ chronometer.getclock(true) -- elapsed process time in seconds (microseconds prec
 -- Raw timestamps
 chronometer.getrawsysclock() -- raw system performance counter value
 chronometer.getrawtime(true) -- raw system time value (microseconds precision)
+```
 The library provides both high resolution and normal precision variants for stopwatches, current time, and process time.
 
 Raw timestamp functions return the underlying Windows timestamp values, useful for precision timing.
