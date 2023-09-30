@@ -1,12 +1,13 @@
 # Chronometer
 Chronometer is a Lua library for precise time measurement and timestamps on Windows.
 
-Features
-Stopwatch for timing intervals up to microseconds precision
-Current time in seconds or microseconds precision
-Elapsed process time in seconds or microseconds
-Raw timestamps for time, system performance counter, process start
-Usage
+Features:
+* Stopwatch for timing intervals up to microseconds precision
+* Current time in seconds or microseconds precision
+* Elapsed process time in seconds or microseconds
+* Raw timestamps for time, system performance counter, process start
+
+Usage:
 ```lua
 
 local chronometer = require("chronometer")
