@@ -32,7 +32,6 @@ ffi.cdef([[
 	int32_t GetCurrentProcess(void);
 	
     int clock_gettime(uint32_t, uint32_t*);
-    uint64_t clock(void);
 ]])
 
 if os == "Windows" then
