@@ -1,5 +1,5 @@
 # Chronometer
-Chronometer is a Lua library for precise time measurement and timestamps on Windows.
+Chronometer is a Lua library for precise time measurement and timestamps on Windows or Linux.
 
 Features:
 * Stopwatch for timing intervals up to microseconds precision
@@ -30,6 +30,6 @@ chronometer.getrawtime(true) -- raw system time value (microseconds precision)
 ```
 The library provides both high resolution and normal precision variants for stopwatches, current time, and process time.
 
-Raw timestamp functions return the underlying Windows timestamp values, useful for precision timing.
+Raw timestamp functions return the underlying timestamp values, useful for precision timing.
 
-The library uses the Win32 API and LuaJIT's FFI for high performance timing.
+The library uses the Windows or Linux API and LuaJIT's FFI for high performance timing.
