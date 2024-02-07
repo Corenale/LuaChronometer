@@ -25,10 +25,10 @@ chronometer.gettime(true) -- current unix time in seconds
 chronometer.getclock(true) -- current process time in seconds
 
 - System current system time
-chronometer.getsysclock(true) -- current system time in seconds
+chronometer.getsysclock() -- current system time in seconds
 
 -- Raw timestamps
-chronometer.getrawclock() -- raw process time value
+chronometer.getrawclock(true) -- raw process time value
 chronometer.getrawsysclock() -- raw system time value
 chronometer.getrawtime(true) -- raw unix time value
 ```
