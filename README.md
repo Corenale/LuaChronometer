@@ -24,7 +24,7 @@ chronometer.gettime(true) -- current unix time in seconds
 -- Process current time
 chronometer.getclock(true) -- current process time in seconds
 
-- System current system time
+-- System current system time
 chronometer.getsysclock() -- current system time in seconds
 
 -- Raw timestamps
